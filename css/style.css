@@ -1,0 +1,101 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/button.css');
+@import url('components/social-icons.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/background.png);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content h1 {
+  color: white;
+}
+
+.banner-content p {
+ color: rgba(162,162,162);
+ padding-bottom: 30px;
+}
+
+
+.container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  box-shadow: 0px 0px 3px rgba(160,160,160);
+  padding: 20px 15px;
+  border-radius: 4px;
+}
+
+.menu-item h1 {
+  font-size: 20px;
+}
+
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+
+.footer {
+  background-color: #2C2B2B;
+  padding: 50px 0;
+  text-align: center;
+
+}
+
+
+.social {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  list-style-type: none;
+
+}
+.social a {
+  color: #1DDD88;
+  font-size: 35px;
+  margin: 0 4px;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+
+
+
+
+
